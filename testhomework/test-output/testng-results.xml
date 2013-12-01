@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Chrome" duration-ms="50098" started-at="2013-12-01T03:05:15Z" finished-at="2013-12-01T03:06:05Z">
+    <groups>
+    </groups>
+    <test name="LoginChrome" duration-ms="22066" started-at="2013-12-01T03:05:15Z" finished-at="2013-12-01T03:05:37Z">
+      <class name="org.shazhou.selenium.LoginTestChrome">
+        <test-method status="PASS" signature="setupSelenium()[pri:0, instance:org.shazhou.selenium.LoginTestChrome@42e020c9]" name="setupSelenium" is-config="true" duration-ms="5277" started-at="2013-11-30T19:05:15Z" finished-at="2013-11-30T19:05:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSelenium -->
+        <test-method status="PASS" signature="login()[pri:0, instance:org.shazhou.selenium.LoginTestChrome@42e020c9]" name="login" duration-ms="15831" started-at="2013-11-30T19:05:20Z" finished-at="2013-11-30T19:05:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="closeSelenium()[pri:0, instance:org.shazhou.selenium.LoginTestChrome@42e020c9]" name="closeSelenium" is-config="true" duration-ms="779" started-at="2013-11-30T19:05:36Z" finished-at="2013-11-30T19:05:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSelenium -->
+      </class> <!-- org.shazhou.selenium.LoginTestChrome -->
+    </test> <!-- LoginChrome -->
+    <test name="AddVideoChrome" duration-ms="27839" started-at="2013-12-01T03:05:37Z" finished-at="2013-12-01T03:06:05Z">
+      <class name="org.shazhou.selenium.AddVideoTestChrome">
+        <test-method status="PASS" signature="setupSelenium()[pri:0, instance:org.shazhou.selenium.AddVideoTestChrome@2e297ffb]" name="setupSelenium" is-config="true" duration-ms="13033" started-at="2013-11-30T19:05:37Z" finished-at="2013-11-30T19:05:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSelenium -->
+        <test-method status="PASS" signature="addVideo()[pri:0, instance:org.shazhou.selenium.AddVideoTestChrome@2e297ffb]" name="addVideo" duration-ms="14122" started-at="2013-11-30T19:05:50Z" finished-at="2013-11-30T19:06:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addVideo -->
+        <test-method status="PASS" signature="closeSelenium()[pri:0, instance:org.shazhou.selenium.AddVideoTestChrome@2e297ffb]" name="closeSelenium" is-config="true" duration-ms="680" started-at="2013-11-30T19:06:04Z" finished-at="2013-11-30T19:06:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSelenium -->
+      </class> <!-- org.shazhou.selenium.AddVideoTestChrome -->
+    </test> <!-- AddVideoChrome -->
+  </suite> <!-- Chrome -->
+</testng-results>

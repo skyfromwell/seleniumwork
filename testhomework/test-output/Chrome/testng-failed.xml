@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Chrome]" parallel="none">
+  <test name="LoginChrome(failed)" parallel="none">
+    <classes>
+      <class name="org.shazhou.selenium.LoginTestChrome">
+        <methods>
+          <include name="login"/>
+          <include name="setupSelenium"/>
+        </methods>
+      </class> <!-- org.shazhou.selenium.LoginTestChrome -->
+      <class name="org.shazhou.selenium.AddVideoTestChrome">
+        <methods>
+          <include name="setupSelenium"/>
+        </methods>
+      </class> <!-- org.shazhou.selenium.AddVideoTestChrome -->
+    </classes>
+  </test> <!-- LoginChrome(failed) -->
+  <test name="AddVideoChrome(failed)" parallel="none">
+    <classes>
+      <class name="org.shazhou.selenium.LoginTestChrome">
+        <methods>
+          <include name="setupSelenium"/>
+        </methods>
+      </class> <!-- org.shazhou.selenium.LoginTestChrome -->
+      <class name="org.shazhou.selenium.AddVideoTestChrome">
+        <methods>
+          <include name="addVideo"/>
+          <include name="setupSelenium"/>
+        </methods>
+      </class> <!-- org.shazhou.selenium.AddVideoTestChrome -->
+    </classes>
+  </test> <!-- AddVideoChrome(failed) -->
+</suite> <!-- Failed suite [Chrome] -->

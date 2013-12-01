@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Firefox]" parallel="none">
+  <test name="LoginFirefox(failed)" parallel="none">
+    <classes>
+      <class name="org.shazhou.selenium.LoginTestFirefox">
+        <methods>
+          <include name="login"/>
+          <include name="closeSelenium"/>
+          <include name="setupSelenium"/>
+        </methods>
+      </class> <!-- org.shazhou.selenium.LoginTestFirefox -->
+      <class name="org.shazhou.selenium.AddVideoTestFirefox">
+        <methods>
+          <include name="setupSelenium"/>
+          <include name="closeSelenium"/>
+        </methods>
+      </class> <!-- org.shazhou.selenium.AddVideoTestFirefox -->
+    </classes>
+  </test> <!-- LoginFirefox(failed) -->
+  <test name="AddVideoFirefox(failed)" parallel="none">
+    <classes>
+      <class name="org.shazhou.selenium.LoginTestFirefox">
+        <methods>
+          <include name="closeSelenium"/>
+          <include name="setupSelenium"/>
+        </methods>
+      </class> <!-- org.shazhou.selenium.LoginTestFirefox -->
+      <class name="org.shazhou.selenium.AddVideoTestFirefox">
+        <methods>
+          <include name="addVideo"/>
+          <include name="setupSelenium"/>
+          <include name="closeSelenium"/>
+        </methods>
+      </class> <!-- org.shazhou.selenium.AddVideoTestFirefox -->
+    </classes>
+  </test> <!-- AddVideoFirefox(failed) -->
+</suite> <!-- Failed suite [Firefox] -->
