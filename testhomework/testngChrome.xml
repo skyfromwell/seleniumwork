@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Chrome" parallel="none">
+  <test name="LoginChrome">
+    <classes>
+      <class name="org.shazhou.selenium.LoginTestChrome"/>
+    </classes>
+  </test>
+  <test name="AddVideoChrome">
+    <classes>
+      <class name="org.shazhou.selenium.AddVideoTestChrome"/>
+    </classes>
+  </test> <!-- Test --><!-- Test -->
+</suite> <!-- Suite -->

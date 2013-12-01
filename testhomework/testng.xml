@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Firefox" parallel="none">
+  <test name="LoginFirefox">
+    <classes>
+      <class name="org.shazhou.selenium.LoginTestFirefox"/>
+    </classes>
+  </test>
+  <test name="AddVideoFirefox">
+    <classes>
+      <class name="org.shazhou.selenium.AddVideoTestFirefox"/>
+    </classes>
+  </test> <!-- Test --><!-- Test -->
+</suite> <!-- Suite -->
